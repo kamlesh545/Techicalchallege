@@ -1,0 +1,8 @@
+﻿  IoTsimulateapp.cpp
+IoTsimulateapp.obj : error LNK2019: unresolved external symbol MQTTClient_create referenced in function main
+IoTsimulateapp.obj : error LNK2019: unresolved external symbol MQTTClient_connect referenced in function main
+IoTsimulateapp.obj : error LNK2019: unresolved external symbol MQTTClient_disconnect referenced in function main
+IoTsimulateapp.obj : error LNK2019: unresolved external symbol MQTTClient_publishMessage referenced in function "void __cdecl generateData(void * &)" (?generateData@@YAXAEAPEAX@Z)
+IoTsimulateapp.obj : error LNK2019: unresolved external symbol MQTTClient_waitForCompletion referenced in function "void __cdecl generateData(void * &)" (?generateData@@YAXAEAPEAX@Z)
+IoTsimulateapp.obj : error LNK2019: unresolved external symbol MQTTClient_destroy referenced in function main
+C:\Users\ADMIN\source\repos\IoTsimulateapp\x64\Debug\IoTsimulateapp.exe : fatal error LNK1120: 6 unresolved externals
